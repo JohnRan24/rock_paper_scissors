@@ -6,7 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
     
+
+
+    <div class="rps">
+        <h2>CHOOSE YOUR WEAPON</h2>
+        <h3 class="score-message" id="scoreMessage">
+          FIRST TO SCORE 5 POINTS WINS THE GAME
+        </h3>
+      </div>
+  
+      <div class="score-container">
+        <div class="score-box">
+          <div class="sign" id="playerSign">
+
+          </div>
+          <!-- added data-score attribute -->
+          <h2 class="score" id="playerScore" data-score="0">PLAYER:0</h2>
+        </div>
+        <div class="score-box">
+          <div class="sign" id="computerSign">
+
+          </div>
+          <!-- added data-score attribute -->
+          <h2 class="score" id="computerScore" data-score="0">COMPUTER:0</h2>
+        </div>
+      </div>
+  
+      <div class="button-box">
+        <button id="rockBtn">rock</button>
+        <button id="paperBtn">paper</button>
+        <button id="scissorsBtn">scissors</button>
+      </div>
+
+      <script src="script.js"></script>
 </body>
 </html>
