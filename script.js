@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-function playGame() {
-=======
 const rock = document.querySelector("#rockBtn");
 const paper = document.querySelector("#paperBtn");
 const scissors = document.querySelector("#scissorsBtn");
@@ -13,7 +10,6 @@ rock.addEventListener('click', function() {
     playerSign.textContent = "rock";
   playRound('rock', getRandomChoice());
 });
->>>>>>> rps-ui
 
 paper.addEventListener('click', function() {
     playerSign.textContent = "paper";
